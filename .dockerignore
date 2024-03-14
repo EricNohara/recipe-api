@@ -1,0 +1,15 @@
+# Git -- git files and directories
+.git
+.gitignore
+
+# Docker -- docker hidden file not needed in docker file
+.docker
+
+# Python -- unneeded cache made by python, and virtual enviroment created
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+.env/
+.venv/
+venv/
